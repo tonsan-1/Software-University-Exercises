@@ -11,7 +11,6 @@ function getInfo() {
         fetch(url)
             .then(res => res.json())
             .then(data => {
-                console.log(data);
                 let stopName = data.name;
                 let allBuses = data.buses;
 
