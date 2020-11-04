@@ -17,6 +17,8 @@ function httpRequest(request) {
     if (!request.hasOwnProperty('message') || !request.message.match(messageRegx)) {
         throw new Error('Invalid request header: Invalid Message');
     }
+
+    return request;
 }
 
 httpRequest({
