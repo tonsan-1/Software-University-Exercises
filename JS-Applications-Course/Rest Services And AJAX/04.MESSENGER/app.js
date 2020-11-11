@@ -15,7 +15,7 @@ function attachEvents() {
             method: 'POST',
             body: JSON.stringify({
                 author: name.value,
-                content: message.textContent
+                content: message.value
             })
         })
             .then(res => res.json())

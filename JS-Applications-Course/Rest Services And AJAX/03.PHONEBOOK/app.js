@@ -24,7 +24,7 @@ function attachEvents() {
     createButton.addEventListener('click', createContact);
     function del(key){
         let deleteUrl = `https://phonebook-nakov.firebaseio.com/phonebook/${key}.json`;
-        fetch(deleteUrl, { method: 'DELETE' });
+        fetch(deleteUrl, { method: 'DELETE' }).then(res => res.json());
     }
     function createContact(e) {
         let name = document.querySelector('#person');
