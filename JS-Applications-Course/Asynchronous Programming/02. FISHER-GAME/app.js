@@ -41,7 +41,7 @@ function attachEvents() {
         if (hasClass(e.target, 'update')) {
             let id = e.target.parentElement.getAttribute('data-id');
 
-            let [angler,weight,species,location,bait,captureTime] = e.currentTarget.parentElement.querySelectorAll('input');
+            let [angler,weight,species,location,bait,captureTime] = e.target.parentElement.querySelectorAll('input');
 
             fetch(url + `${id}.json`, {
                 method: 'PUT',
