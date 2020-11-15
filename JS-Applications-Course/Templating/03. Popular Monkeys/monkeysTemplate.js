@@ -27,6 +27,5 @@ function attachEventListener() {
                 pElement.style.display = 'none';
             }
         }
-
     });
 }
