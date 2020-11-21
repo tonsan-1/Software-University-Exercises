@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./public/styles.css">
+    <link rel="icon" type="image/png" href="./public/favicon.png">
+    <title>Shoe Shelf</title>
+    
+    
+</head>
+
+<body>
+    <div id="infoBox" class="notification" disabled></div>
+    <div id="errorBox" class="notification" disabled></div>
+    <main id="root"></main>
+
+    <script src="https://www.gstatic.com/firebasejs/8.0.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.0.2/firebase-auth.js"></script>
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+          apiKey: "AIzaSyDC9ZW1A2oM0jM-hLb7C8K1tbXpihodW6c",
+          authDomain: "softuni-exercises-b5ae1.firebaseapp.com",
+          databaseURL: "https://softuni-exercises-b5ae1.firebaseio.com",
+          projectId: "softuni-exercises-b5ae1",
+          storageBucket: "softuni-exercises-b5ae1.appspot.com",
+          messagingSenderId: "199228666803",
+          appId: "1:199228666803:web:05d0ba4dd74351b1f291c6"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+    
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./node_modules/handlebars/dist/handlebars.min.js"></script>
+    <script src="./node_modules/sammy/lib/sammy.js"></script>
+    <script src="./node_modules/sammy/lib/plugins/sammy.handlebars.js"></script>
+    <script src="/scripts.js/notification/notification.js"></script>
+    <script src="./scripts.js/data/services.js"></script>
+    <script type="module" src="./scripts.js/router.js"></script>
+</body>
+
+</html>
