@@ -7,7 +7,7 @@ const authService = {
                     email: email,
                     isAuthenticated: true
                 }));
-                notification('info', 'Registration was successful!');
+                notification('info', 'Registration was successful!'); 
             })
     },
     login(email, password) {

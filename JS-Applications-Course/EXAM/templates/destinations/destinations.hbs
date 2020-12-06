@@ -1,0 +1,10 @@
+{{>header}}
+<section id="viewMydestinations">
+    <h3>Your destinations</h3>
+    {{#each destinations}}
+    {{>destination}}
+    {{else}}
+    <div class="zero-destinations">No destinations available...</div>
+    {{/each}}
+</section>
+{{>footer}}
