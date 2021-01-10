@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SoftBay</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <!-- Node Modules -->
+    <script src="./node_modules/jquery/dist/jquery.js"></script>
+    <script src="./node_modules/handlebars/dist/handlebars.js"></script>
+    <script src="./node_modules/sammy/lib/sammy.js"></script>
+    <script src="./node_modules/sammy/lib/plugins/sammy.handlebars.js"></script>
+    <script src="./node_modules/popper.js/dist/umd/popper.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <!-- ./Node Modules -->
+    <script src="/scripts.js/notification/notification.js"></script>
+    <script src="./scripts.js/data/services.js"></script>
+    <script type="module" src="./scripts.js/router.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/8.0.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.0.2/firebase-auth.js"></script>
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyDC9ZW1A2oM0jM-hLb7C8K1tbXpihodW6c",
+            authDomain: "softuni-exercises-b5ae1.firebaseapp.com",
+            databaseURL: "https://softuni-exercises-b5ae1.firebaseio.com",
+            projectId: "softuni-exercises-b5ae1",
+            storageBucket: "softuni-exercises-b5ae1.appspot.com",
+            messagingSenderId: "199228666803",
+            appId: "1:199228666803:web:05d0ba4dd74351b1f291c6"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+</head>
+
+<body>
+    <section id="notifications">
+        <div class="p-3 mb-2 bg-success w-50 text-white text-center" id="notification"></div>
+        <div class="p-3 mb-2 bg-danger w-50 text-white text-center" id="errorBox"></div>
+        <div class="p-3 mb-2 bg-info w-50 text-white text-center" id="loadingBox"></div>
+    </section>
+    
+    <main id="root"></main>
+
+</body>
+
+</html>

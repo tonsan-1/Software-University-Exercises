@@ -1,0 +1,22 @@
+<tr>
+    <td class="">{{index}}</td>
+    <td class="">{{product}}</td>
+    <td class="description">{{description}}</td>
+    <td class="">{{price}}</td>
+    <td>
+        <a href='#/details/{{@key}}' class="btn-primary btn">Order details</a>
+    </td>
+    <td>
+        {{#if creator}}
+        <a href='#/delete/{{@key}}' class="btn-danger btn">Delete</a>
+        <a href='#/edit/{{@key}}' class="btn-info btn">Edit</a>
+        {{/if}}
+        {{#unless creator}}
+        {{#if hasBought}}
+        <button disabled="true" class="btn-warning btn">Bought</button>
+        {{else}}
+        <a href="#/buy/{{@key}}" class="btn-warning btn">Buy</a>
+        {{/if}}
+        {{/unless}}
+    </td>
+</tr>
