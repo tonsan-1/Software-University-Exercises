@@ -1,0 +1,17 @@
+@import url("https://use.fontawesome.com/releases/v5.15.1/css/all.css");
+
+.click-btn{
+    background: #008000;
+}
+p{
+    margin: 30px;
+}
+.btn {
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+    padding: 10px;
+}
+.email-btn{
+    background: #FF8C00;
+}

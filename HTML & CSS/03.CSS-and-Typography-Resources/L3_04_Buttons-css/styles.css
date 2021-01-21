@@ -1,0 +1,15 @@
+@import url("https://use.fontawesome.com/releases/v5.15.1/css/all.css");
+
+.button{
+    border-radius: 20px;
+    padding: 4px;
+    border:none;
+    cursor: pointer;
+    outline: none;
+}
+.hover{
+    color:rgb(51, 51, 51);
+}
+.fill{
+    background-color:rgb(251, 251, 251);
+}
