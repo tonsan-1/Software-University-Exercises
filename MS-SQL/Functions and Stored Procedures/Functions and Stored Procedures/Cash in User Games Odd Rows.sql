@@ -3,8 +3,8 @@ RETURNS TABLE
 AS
 RETURN(
 SELECT SUM(k.Cash) AS TotalCash
-FROM( SELECT Cash, 
-		ROW_Number() OVER (ORDER BY g.Id) AS RowNumber
+FROM(SELECT Cash, 
+		ROW_Number() OVER (ORDER BY CASH DESC) AS RowNumber
 FROM Games AS g
 JOIN UsersGames AS ug ON ug.GameId = g.Id
 WHERE Name = @gameName) as K

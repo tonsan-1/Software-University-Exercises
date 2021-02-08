@@ -1,0 +1,62 @@
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css';
+*{
+    box-sizing: border-box;
+}
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.card{
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    left: 50%;
+}
+.card::after{
+    content: "";
+    display: block;
+    height:100%;
+    width: 100%;
+    top: 0;
+    position: absolute;
+    box-shadow: inset 0 0 20px 6px black;
+    border-radius: 5px;
+}
+.viewport{
+    position: relative;
+}
+
+.viewport:nth-child(1){
+    height: 500px;
+    background: linear-gradient(90deg, rgba(25,93,157,1) 0%, rgba(45,147,159,1) 50%, rgba(63,195,161,1) 100%);
+}
+.viewport:nth-child(2){
+    height: 800px;
+    background: linear-gradient(90deg, rgba(168,51,119,1) 0%, rgba(188,89,68,1) 50%, rgba(207,123,27,1) 100%);
+}
+
+.lake img{
+    width: 400px;
+    height: 300px;
+    border-radius: 5px;
+}
+.mountain img {
+    width: 400px;
+    height: 500px;
+    border-radius: 5px;
+}
+.lake .fa,
+.mountain .fa {
+    position: absolute;
+    bottom: 15px;
+    right: 10px;
+    color: white;
+}
+.card i {
+    z-index: 1;
+    font-size: 20px;
+}
