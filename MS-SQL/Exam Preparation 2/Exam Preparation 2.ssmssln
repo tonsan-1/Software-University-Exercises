@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 18.00
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Exam Preparation 2", "Exam Preparation 2\Exam Preparation 2.ssmssqlproj", "{9EAB8FFB-75F3-45F6-A1B5-1F06265C443B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9EAB8FFB-75F3-45F6-A1B5-1F06265C443B}.Default|Default.ActiveCfg = Default
+		{A83149B9-0CE8-4887-A8AB-5AB5A44CB6CA}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E3FB46E4-23ED-4388-8DDD-44059885305C}
+	EndGlobalSection
+EndGlobal

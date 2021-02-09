@@ -1,0 +1,60 @@
+html{
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+body{
+    margin: 0;
+    background: #eee;
+}
+main,header{
+    max-width: 1250px;
+    margin: 0 auto;
+}
+.image-wrapper{
+    border: 3px solid black;
+    padding: 10px;
+    background: #fff;
+    box-shadow: 1px -1px 18px -3px rgba(0, 0, 0, 0.75);
+    margin-right: 20px;
+}
+header{
+    border-bottom: 2px solid black;
+    margin-top: 50px;
+}
+.site-title{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+    display: inline-block;
+}
+blockquote{
+    border-left: 5px solid rgb(218, 218, 218);
+    padding-left: 30px;
+}
+blockquote p {
+    color: gray;
+    font-style: italic;
+}
+.image-wrapper{
+    float: right;
+}
+.heading-level-3 .image-wrapper{
+    float: left;
+}
+.heading-level-two-content .heading-content,
+.heading-level-two-content blockquote{
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+}
+blockquote .author-name{
+    font-weight: bold;
+    text-align: right;
+}
