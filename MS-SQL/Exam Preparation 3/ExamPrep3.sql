@@ -179,7 +179,7 @@ BEGIN
 			SELECT TOP(1) r.Id, r.Price, r.[Type], r.Beds, ((h.BaseRate + r.Price) * @people) AS TotalPrice
 			FROM Rooms r
 			LEFT JOIN Hotels h ON h.Id = r.HotelId
-			WHERE r.HotelId = @hotelId AND r.Beds >= @people AND r.Id NOT IN (SELECT Id FROM @hotels)
+			WHERE r.HotelId = @hotelId AND r.Beds >= @people
 			ORDER BY TotalPrice DESC
 
 		IF((SELECT COUNT(*) FROM @room) < 1)
@@ -190,4 +190,33 @@ DECLARE @result varchar(max) =  (SELECT TOP(1)CONCAT('Room ', Id, ': ', Type, ' 
 RETURN @result
 END
 GO
---
+--12. Switch Room
+GO
+CREATE PROC usp_SwitchRoom(@tripId int, @targetRoomId int)
+AS
+BEGIN
+	DECLARE @tripHotelId int = (SELECT r.HotelId FROM Trips t
+								JOIN Rooms r ON r.Id = t.RoomId
+								WHERE t.Id = @tripId)
+
+	DECLARE @targetRoomHotelId int = (SELECT HotelId FROM Rooms WHERE Id = @targetRoomId)
+
+	IF(@tripHotelId != @targetRoomHotelId)
+		THROW 50001, 'Target room is in another hotel!', 1
+
+	DECLARE @people int = (SELECT COUNT(*)
+						   FROM AccountsTrips
+						   WHERE TripId = @tripId)
+
+	DECLARE @targetRoomBeds int = (SELECT Beds FROM Rooms WHERE Id = @targetRoomId)
+
+	IF(@targetRoomBeds < @people)
+		THROW 50002, 'Not enough beds in target room!', 1
+
+	
+	UPDATE Trips
+	SET	RoomId = @targetRoomId
+	WHERE Id = @tripId
+END
+
+
