@@ -163,24 +163,31 @@ ORDER BY [Full Name], t.Id
 --11. Available Room
 GO
 CREATE FUNCTION udf_GetAvailableRoom(@hotelId int, @date date, @people int)
-RETURNS varchar(300)
+RETURNS varchar(max)
 AS
 BEGIN
-		DECLARE @hotel int
-		SET @hotelId = (SELECT * FROM Rooms WHERE HotelId = 4) 
+		DECLARE @hotels TABLE (Id INT);
+		INSERT INTO @hotels(Id)
+		SELECT DISTINCT r.Id
+		FROM Rooms r
+		JOIN Trips t ON t.RoomId = r.Id
+		WHERE r.HotelId = @hotelId AND
+			  @date BETWEEN t.ArrivalDate AND t.ReturnDate AND t.CancelDate IS NULL
 
-		IF(@hotelId IS NULL)
+		DECLARE @room TABLE(Id int, Price decimal(15,2), [Type] varchar(20), Beds int, TotalPrice decimal(15,2))
+		INSERT INTO @room
+			SELECT TOP(1) r.Id, r.Price, r.[Type], r.Beds, ((h.BaseRate + r.Price) * @people) AS TotalPrice
+			FROM Rooms r
+			LEFT JOIN Hotels h ON h.Id = r.HotelId
+			WHERE r.HotelId = @hotelId AND r.Beds >= @people AND r.Id NOT IN (SELECT Id FROM @hotels)
+			ORDER BY TotalPrice DESC
+
+		IF((SELECT COUNT(*) FROM @room) < 1)
 		RETURN 'No rooms available'
 
+
+DECLARE @result varchar(max) =  (SELECT TOP(1)CONCAT('Room ', Id, ': ', Type, ' (',Beds, ' beds',')', ' - ', '$', TotalPrice ) FROM @room)
+RETURN @result
 END
-
 GO
-
-SELECT r.Price
-FROM Rooms r
-JOIN Trips t ON t.RoomId = r.Id
-WHERE r.HotelId = 112 AND  (SELECT * FROM Trips WHERE
-	   t.ArrivalDate >=  '2011-12-17' AND  t.ReturnDate <= '2011-12-17'  AND
-	  t.CancelDate IS NULL AND
-	  r.Beds >= 2
-
+--
