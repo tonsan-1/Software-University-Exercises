@@ -1,5 +1,4 @@
 --01.CREATE
-
 CREATE TABLE Students
 (
 	Id INT PRIMARY KEY IDENTITY,
@@ -169,5 +168,23 @@ DECLARE @result varchar(max) = (SELECT CONCAT('You have to update ', @countGrade
 RETURN @result
 END
 GO
+--12. Exclude From School
+
+CREATE PROC usp_ExcludeFromSchool(@StudentId int)
+AS
+BEGIN
+	DECLARE @student int = (SELECT Id FROM Students WHERE Id = @StudentId)
+
+	IF(@student IS NULL)
+		THROW 50001, 'This school has no student with the provided id!', 1
+
+	DELETE FROM StudentsExams WHERE StudentId = @student
+	DELETE FROM StudentsSubjects WHERE StudentId = @student
+	DELETE FROM StudentsTeachers WHERE StudentId = @student
+	DELETE FROM Students WHERE Id = @student
+END
+
+EXEC usp_ExcludeFromSchool 301
+SELECT COUNT(*) FROM Students
 
 
