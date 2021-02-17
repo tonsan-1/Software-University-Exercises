@@ -1,0 +1,33 @@
+html{
+    font-family: "Helvetica", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background: #F6F6F6;
+
+}
+body{
+    margin: 100px 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+div{
+    display: flex;
+}
+header,main,aside,footer{
+    box-shadow: 0px 0px 3px black;
+    background: white;
+    padding: 50px;
+    margin: 15px;
+    border-radius: 6px;
+}
+main,
+aside{
+    min-height: 300px;
+}
+main{
+    flex-basis: 70%;
+}
+aside{
+    flex-grow: 1;
+}

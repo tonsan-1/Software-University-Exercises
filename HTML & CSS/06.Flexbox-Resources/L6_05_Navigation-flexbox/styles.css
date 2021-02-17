@@ -1,0 +1,24 @@
+html{
+    font-family: Helvetica,sans-serif;
+}
+header{
+    border-bottom: 2px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+body{
+    max-width: 1200px;
+    margin: 50px auto;
+}
+header ul {
+    display: flex;
+}
+header ul li{
+    list-style: none;
+    margin: 0px 10px;
+}
+header ul a {
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+}
