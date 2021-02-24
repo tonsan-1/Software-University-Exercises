@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 * {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
 html{
     font-family: 'Lato', sans-serif;
     color: #56576F;
@@ -46,7 +46,7 @@ h1{
     justify-content: center;
 
 }
-.taxes::before{
+.main-section-taxes::before{
     content: url(./images/calculator-icon.svg);
     width: 80%;
     position: absolute;
@@ -59,3 +59,87 @@ h2{
     margin: 0;
     color: #56576F;
 }
+.section-main-prices{
+    position: relative;
+    top: -205px;
+    left: -18px;
+}
+.section-main-prices ul {
+    display: flex;
+}
+.section-main-prices li {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 1px black;
+    list-style: none;
+    width: 350px;
+    height: 310px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 15px;
+    border-radius: 10px;
+}
+.section-main-prices li article{
+    text-align: center;
+}
+.second-price-info,
+.third-price-info{
+    margin-top: 10px;
+}
+.third-price-pricing .price,
+.second-price-pricing .price{
+    margin-right: 50px;
+}
+.second-price-pricing::after,
+.third-price-pricing::after
+{
+    content: '';
+    border-right: 2px solid #ffffff;
+    position: relative;
+    left: -139px;
+    top: 7px;
+    height: 65px;
+}
+.second-price-pricing{
+    display: flex;
+    padding: 0 10px;
+    background: linear-gradient(90deg, rgba(77,108,137,1) 49%, rgba(97,153,204,1) 100%);
+    color: white;
+    width: 100%;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.third-price-pricing{
+    display: flex;
+    padding: 0 10px;
+    background: linear-gradient(90deg, rgba(77,58,167,1) 49%, rgba(138,123,224,1) 100%);
+    color: white;
+    width: 100%;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.per-course {
+    font-size: 14px;
+}
+.first-price-pricing {
+    background: linear-gradient(90deg, rgba(5,157,63,1) 49%, rgba(73,213,126,1) 100%);
+    color: white;
+    width: 100%;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+.first-price-info{
+    margin-top: 30px;
+}
+.second-price-info,
+.third-price-info {
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.price{
+    font-size: 16px;
+}
+
