@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.15.2/css/all.css');
+
+html {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+html, body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.section-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #F93700;
+}
+header ul {
+    display: flex;
+    list-style: none;
+}
+header ul li{
+    margin: 10px 15px;
+}
+header ul li a {
+    text-decoration: none;
+    color: white;
+}
+.search-bar input {
+    border: none;
+    width: 350px;
+    height: 30px;
+    outline: none;
+    
+}
+main {
+    background: #F0E4E4;
+    margin-top: -17px;
+}
+.search-bar {
+    margin-right: 60px;
+}
+.search-bar button {
+    border: none;
+    padding: 8.5px 22px;
+    margin-left: -13px;
+    color: white;
+    background: #B6AFAF;
+    outline: none;
+}
+.my-account a {
+    color: white;
+    text-decoration: none;
+    margin-right: 40px;
+}
+.fa-user {
+    color: white;
+    margin-right: 10px;
+}
+.rooms ul {
+    display: flex;
+    list-style: none;
+    text-align: center;
+}
+.room img {
+    width: 250px;
+    height: 250px;
+}
+.room {
+    width: 250px;
+    margin: 10px 20px;
+}
+.room a {
+    text-decoration: none;
+    color: #999FA6;
+}
+.new-collection {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 60px;
+}
+.collection-image {
+    width: 735px;
+    margin-right: 20px;
+}
+.collection-image img {
+    width: 100%;
+}
+.collection-content h1 {
+    color: #F84918;
+    font-size: 35px;
+    font-weight: 300;
+    margin: 0px;
+}
+.collection-content p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #8E97AA;
+}
+.collection-content button {
+    border: none;
+    padding: 12px 15px;
+    border-radius: 5px;
+    background: #F84918;
+    color: white;
+    outline: none;
+}
+.collection-content {
+    margin-top: 45px;
+}
+.benefits ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    text-align: center;
+    background: #CAC3C3;
+    padding: 30px;
+    
+}
+.benefit {
+    width: 320px;
+    margin-top: 20px;
+    margin-right: 38px;
+}
+.benefit img {
+    width: 28%;
+    background: #E6D6D6;
+    padding: 10px;
+    border-radius: 80px;
+}
+.benefit h4,
+.benefit p{
+    margin: 0;
+}
+.benefit p {
+    font-size: 14px;
+    color: #88807E;
+}
+.benefit h4 {
+    color: #4D4A4D;
+}
+.benefits {
+    max-width: 1121px;
+    margin: 0 60px;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+footer ul {
+    display: flex;
+    list-style: none;
+}
+footer ul li {
+    margin: 10px;
+}
+footer ul li a {
+    color: #959AA4;
+    text-decoration: none;
+}
