@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.15.2/css/all.css');
+
+html,body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: Montserrat, sans-serif;
+    margin: 0;
+}
+.section-wrapper{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+header {
+    background: #41BEAD;
+    padding: 10px;
+    
+}
+header img {
+    width: 110px;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.coaches {
+    background: #FFB402;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px;
+    color: white;
+}
+.coaches p {
+    padding: 0 220px;
+    text-align: center;
+    max-width: 620px;
+    margin: 0 auto;
+}
+.coaches h1 {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.coaches-info ul {
+    display: flex;
+}
+.coaches-info ul li {
+    display: flex;
+    width: 50%;
+    margin: 20px;
+}
+.coaches-info {
+    max-width: 1200px;
+    margin: 65px auto;
+}
+.image img {
+    width: 150px;
+    border: 8px solid #41BEAD;
+    border-radius: 100px;
+}
+.image {
+    margin-right: 20px;
+}
+.name {
+    color: #53C2B1;
+    margin: 0;
+    font-weight: bold;
+}
+.subtitle {
+    font-size: 13px;
+    color: #CDCCCD;
+    margin-top: 5px;
+}
+.person-info {
+    font-size: 14px;
+    color: #797674;
+}
+.coaches-ul {
+    margin-top: 150px;
+}
+.coaches-ul ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.coaches-ul li {
+    text-align: center;
+    margin: 0 50px;
+}
+.coaches-ul li img {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border: 8px solid #41BEAD;
+    border-radius: 100px;
+    margin-bottom: 20px;
+}
+.become-member {
+    background: #66B9F8;
+    padding: 50px;
+    padding-bottom: 75px;
+}
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+
+}
+.content-wrapper h1 {
+    font-size: 30px;
+}
+.content-wrapper p {
+    padding: 0px 183px;
+    text-align: center;
+    font-size: 14px;
+}
+.content-wrapper ul {
+    display: flex;
+    list-style: none;
+}
+.content-wrapper ul li {
+    margin: 10px;
+}
+.content-wrapper ul li button {
+    color: white;
+    background: #FF9100;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 12px;
+    box-shadow: 0 0 6px 0px #565555;
+}
+.content-wrapper ul li input{
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+.content-wrapper ul li input::placeholder {
+    color: white;
+    opacity: 1;
+}
+.content-wrapper ul li input:focus {
+    color: white;
+}
+.blue-background {
+    margin: 0;
+    background: #92CDFB;
+    color: #92CDFB;
+}
+.blue-background p,
+.grey-background p {
+    margin:0;
+}
+.grey-background {
+    margin: 0;
+    background: #919191;
+    color: #919191;
+}
+footer {
+    background: #565656;
+}
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 10px 222px;
+    margin-left: -180px;
+}
+.footer-wrapper ul {
+    list-style: none;
+}
+.footer-wrapper ul li p {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.footer-wrapper ul li {
+    margin-bottom: 10px;
+}
+.footer-wrapper ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+.fab {
+    font-size: 28px;
+    margin: 5px;
+}
+.content-wrapper ul li button:hover{
+    cursor: pointer;
+}

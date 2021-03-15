@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+html {
+    font-family: 'Open Sans', sans-serif;;
+}
+body{
+    background: black;
+}
+main{
+    background: black;
+    border: 1px solid white;
+    max-width: 800px;
+    margin: 100px auto;
+}
+h1{
+    color: white;
+    letter-spacing: 1px;
+    margin: 20px 20px;
+    font-size: 40px;
+}
+.wrapper {
+    background: white;
+    width: 99%;
+    margin: 0 auto;
+}
+.earth-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    margin: 0 auto;
+    width: 99%;
+}
+.earth-image {
+    border: 1px solid black;
+    margin: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 2940px;
+}
+.earth-image img {
+    width: 80%;
+    margin-top: 10px;
+}
+.earth-image p {
+    padding: 0px 25px;
+    letter-spacing: 1px;
+}
+.earth-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
