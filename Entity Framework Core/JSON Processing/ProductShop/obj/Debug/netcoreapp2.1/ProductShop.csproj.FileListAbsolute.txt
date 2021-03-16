@@ -10,3 +10,15 @@ C:\Users\tonsa\Documents\GitHub\Software-University-Exercises\Entity Framework C
 C:\Users\tonsa\Documents\GitHub\Software-University-Exercises\Entity Framework Core\JSON Processing\ProductShop\obj\Debug\netcoreapp2.1\ProductShop.dll
 C:\Users\tonsa\Documents\GitHub\Software-University-Exercises\Entity Framework Core\JSON Processing\ProductShop\obj\Debug\netcoreapp2.1\ProductShop.pdb
 C:\Users\tonsa\Documents\GitHub\Software-University-Exercises\Entity Framework Core\JSON Processing\ProductShop\obj\Debug\netcoreapp2.1\ProductShop.genruntimeconfig.cache
+C:\Users\Tony\Documents\GitHub\Software-University-Exercises\Entity Framework Core\JSON Processing\ProductShop\bin\Debug\netcoreapp2.1\ProductShop.deps.json
+C:\Users\Tony\Documents\GitHub\Software-University-Exercises\Entity Framework Core\JSON Processing\ProductShop\bin\Debug\netcoreapp2.1\ProductShop.runtimeconfig.json
+C:\Users\Tony\Documents\GitHub\Software-University-Exercises\Entity Framework Core\JSON Processing\ProductShop\bin\Debug\netcoreapp2.1\ProductShop.runtimeconfig.dev.json
+C:\Users\Tony\Documents\GitHub\Software-University-Exercises\Entity Framework Core\JSON Processing\ProductShop\bin\Debug\netcoreapp2.1\ProductShop.dll
+C:\Users\Tony\Documents\GitHub\Software-University-Exercises\Entity Framework Core\JSON Processing\ProductShop\bin\Debug\netcoreapp2.1\ProductShop.pdb
+C:\Users\Tony\Documents\GitHub\Software-University-Exercises\Entity Framework Core\JSON Processing\ProductShop\obj\Debug\netcoreapp2.1\ProductShop.csprojAssemblyReference.cache
+C:\Users\Tony\Documents\GitHub\Software-University-Exercises\Entity Framework Core\JSON Processing\ProductShop\obj\Debug\netcoreapp2.1\ProductShop.AssemblyInfoInputs.cache
+C:\Users\Tony\Documents\GitHub\Software-University-Exercises\Entity Framework Core\JSON Processing\ProductShop\obj\Debug\netcoreapp2.1\ProductShop.AssemblyInfo.cs
+C:\Users\Tony\Documents\GitHub\Software-University-Exercises\Entity Framework Core\JSON Processing\ProductShop\obj\Debug\netcoreapp2.1\ProductShop.csproj.CoreCompileInputs.cache
+C:\Users\Tony\Documents\GitHub\Software-University-Exercises\Entity Framework Core\JSON Processing\ProductShop\obj\Debug\netcoreapp2.1\ProductShop.dll
+C:\Users\Tony\Documents\GitHub\Software-University-Exercises\Entity Framework Core\JSON Processing\ProductShop\obj\Debug\netcoreapp2.1\ProductShop.pdb
+C:\Users\Tony\Documents\GitHub\Software-University-Exercises\Entity Framework Core\JSON Processing\ProductShop\obj\Debug\netcoreapp2.1\ProductShop.genruntimeconfig.cache
