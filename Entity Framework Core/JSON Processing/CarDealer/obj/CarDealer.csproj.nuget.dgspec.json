@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tonsa\\Documents\\GitHub\\Software-University-Exercises\\Entity Framework Core\\JSON Processing\\ProductShop\\ProductShop.csproj": {}
+    "C:\\Users\\tonsa\\Documents\\GitHub\\Software-University-Exercises\\Entity Framework Core\\JSON Processing\\CarDealer\\CarDealer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tonsa\\Documents\\GitHub\\Software-University-Exercises\\Entity Framework Core\\JSON Processing\\ProductShop\\ProductShop.csproj": {
+    "C:\\Users\\tonsa\\Documents\\GitHub\\Software-University-Exercises\\Entity Framework Core\\JSON Processing\\CarDealer\\CarDealer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tonsa\\Documents\\GitHub\\Software-University-Exercises\\Entity Framework Core\\JSON Processing\\ProductShop\\ProductShop.csproj",
-        "projectName": "ProductShop",
-        "projectPath": "C:\\Users\\tonsa\\Documents\\GitHub\\Software-University-Exercises\\Entity Framework Core\\JSON Processing\\ProductShop\\ProductShop.csproj",
+        "projectUniqueName": "C:\\Users\\tonsa\\Documents\\GitHub\\Software-University-Exercises\\Entity Framework Core\\JSON Processing\\CarDealer\\CarDealer.csproj",
+        "projectName": "CarDealer",
+        "projectPath": "C:\\Users\\tonsa\\Documents\\GitHub\\Software-University-Exercises\\Entity Framework Core\\JSON Processing\\CarDealer\\CarDealer.csproj",
         "packagesPath": "C:\\Users\\tonsa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tonsa\\Documents\\GitHub\\Software-University-Exercises\\Entity Framework Core\\JSON Processing\\ProductShop\\obj\\",
+        "outputPath": "C:\\Users\\tonsa\\Documents\\GitHub\\Software-University-Exercises\\Entity Framework Core\\JSON Processing\\CarDealer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -47,19 +47,11 @@
               "target": "Package",
               "version": "[7.0.1, )"
             },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[2.1.1, )"
-            },
             "Microsoft.EntityFrameworkCore.Proxies": {
               "target": "Package",
               "version": "[2.1.1, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[2.1.1, )"
-            },
-            "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
               "version": "[2.1.1, )"
             },

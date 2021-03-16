@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/lF4mfFGlfI0PtzOGF8iL7OKXKUu26Sr/4465hVToEkQJVJbvACLgZYeUOYAv0eeia8sKJHR48BzqXWFJar+xQ==",
+  "dgSpecHash": "BwdSpGQXY3JbPmqqqEDQ+IfosaG0oR4eCJnYl2EQK9sb+wJLBwDYWxQVuXy25qEKSuhwoiaxGxtjN5PCSKuHJg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tonsa\\Documents\\GitHub\\Software-University-Exercises\\Entity Framework Core\\JSON Processing\\ProductShop\\ProductShop.csproj",
+  "projectFilePath": "C:\\Users\\tonsa\\Documents\\GitHub\\Software-University-Exercises\\Entity Framework Core\\JSON Processing\\CarDealer\\CarDealer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tonsa\\.nuget\\packages\\automapper\\7.0.1\\automapper.7.0.1.nupkg.sha512",
     "C:\\Users\\tonsa\\.nuget\\packages\\castle.core\\4.2.1\\castle.core.4.2.1.nupkg.sha512",
