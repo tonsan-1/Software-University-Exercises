@@ -204,13 +204,33 @@
 					continue;
 				}
 
-				var purchase = new Purchase
+				var card = context.Cards.FirstOrDefault(x => x.Number == currPurchase.Card);
+				var game = context.Games.FirstOrDefault(x => x.Name == currPurchase.GameName);
+
+                if (card == null || game == null)
                 {
+					sb.AppendLine("Invalid Data");
+					continue;
+				}
+
+				var purchase = new Purchase
+				{
 					Type = Enum.Parse<PurchaseType>(currPurchase.Type),
 					ProductKey = currPurchase.ProductKey,
+					Card = card,
+					Date = date,
+					Game = game
+				};
 
-				}
+				purchases.Add(purchase);
+
+				sb.AppendLine($"Imported {game.Name} for {card.User.Username}");
 			}
+
+			context.Purchases.AddRange(purchases);
+			context.SaveChanges();
+
+			return sb.ToString().TrimEnd();
 		}
 
 		private static bool IsValid(object dto)

@@ -1,6 +1,5 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 using VaporStore.Data.Models.Enums;
 
 namespace VaporStore.Data.Models

@@ -20,8 +20,8 @@ namespace VaporStore.DataProcessor.Dto.Import
         public string ProductKey { get; set; }
 
         [Required]
-        [XmlType("Card")]
-        public CardImportModel CardNumber { get; set; }
+        [XmlElement("Card")]
+        public string Card { get; set; }
 
         [Required]
         [XmlElement("Date")]
