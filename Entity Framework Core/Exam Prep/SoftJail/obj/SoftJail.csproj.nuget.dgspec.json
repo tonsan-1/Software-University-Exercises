@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Tony\\Documents\\GitHub\\Software-University-Exercises\\Entity Framework Core\\Exam Prep\\SoftJail\\SoftJail.csproj": {}
+    "C:\\Users\\tonsa\\Documents\\GitHub\\Software-University-Exercises\\Entity Framework Core\\Exam Prep\\SoftJail\\SoftJail.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Tony\\Documents\\GitHub\\Software-University-Exercises\\Entity Framework Core\\Exam Prep\\SoftJail\\SoftJail.csproj": {
+    "C:\\Users\\tonsa\\Documents\\GitHub\\Software-University-Exercises\\Entity Framework Core\\Exam Prep\\SoftJail\\SoftJail.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tony\\Documents\\GitHub\\Software-University-Exercises\\Entity Framework Core\\Exam Prep\\SoftJail\\SoftJail.csproj",
+        "projectUniqueName": "C:\\Users\\tonsa\\Documents\\GitHub\\Software-University-Exercises\\Entity Framework Core\\Exam Prep\\SoftJail\\SoftJail.csproj",
         "projectName": "SoftJail",
-        "projectPath": "C:\\Users\\Tony\\Documents\\GitHub\\Software-University-Exercises\\Entity Framework Core\\Exam Prep\\SoftJail\\SoftJail.csproj",
-        "packagesPath": "C:\\Users\\Tony\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tony\\Documents\\GitHub\\Software-University-Exercises\\Entity Framework Core\\Exam Prep\\SoftJail\\obj\\",
+        "projectPath": "C:\\Users\\tonsa\\Documents\\GitHub\\Software-University-Exercises\\Entity Framework Core\\Exam Prep\\SoftJail\\SoftJail.csproj",
+        "packagesPath": "C:\\Users\\tonsa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tonsa\\Documents\\GitHub\\Software-University-Exercises\\Entity Framework Core\\Exam Prep\\SoftJail\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Tony\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tonsa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -88,7 +91,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -19,9 +19,9 @@
 			var sb = new StringBuilder();
 
 			var games = new List<Game>();
-			var developers = new List<Developer>();
-			var genres = new List<Genre>();
-			var tags = new List<Tag>();
+			var developers = new List<Developer>(); // important not to use context for these
+			var genres = new List<Genre>(); // important not to use context for these
+			var tags = new List<Tag>(); // important not to use context for these 
 
 			var gamesDto = JsonConvert.DeserializeObject<IEnumerable<GamesImportModel>>(jsonString);
 
