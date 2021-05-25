@@ -1,0 +1,12 @@
+C:\Users\Tony\Documents\GitHub\Software-University-Exercises\C# Web Basics\SIS\SIS.WebServer\bin\Debug\netcoreapp3.1\SIS.WebServer.deps.json
+C:\Users\Tony\Documents\GitHub\Software-University-Exercises\C# Web Basics\SIS\SIS.WebServer\bin\Debug\netcoreapp3.1\SIS.WebServer.dll
+C:\Users\Tony\Documents\GitHub\Software-University-Exercises\C# Web Basics\SIS\SIS.WebServer\bin\Debug\netcoreapp3.1\SIS.WebServer.pdb
+C:\Users\Tony\Documents\GitHub\Software-University-Exercises\C# Web Basics\SIS\SIS.WebServer\bin\Debug\netcoreapp3.1\SIS.HTTP.dll
+C:\Users\Tony\Documents\GitHub\Software-University-Exercises\C# Web Basics\SIS\SIS.WebServer\bin\Debug\netcoreapp3.1\SIS.HTTP.pdb
+C:\Users\Tony\Documents\GitHub\Software-University-Exercises\C# Web Basics\SIS\SIS.WebServer\obj\Debug\netcoreapp3.1\SIS.WebServer.csprojAssemblyReference.cache
+C:\Users\Tony\Documents\GitHub\Software-University-Exercises\C# Web Basics\SIS\SIS.WebServer\obj\Debug\netcoreapp3.1\SIS.WebServer.AssemblyInfoInputs.cache
+C:\Users\Tony\Documents\GitHub\Software-University-Exercises\C# Web Basics\SIS\SIS.WebServer\obj\Debug\netcoreapp3.1\SIS.WebServer.AssemblyInfo.cs
+C:\Users\Tony\Documents\GitHub\Software-University-Exercises\C# Web Basics\SIS\SIS.WebServer\obj\Debug\netcoreapp3.1\SIS.WebServer.csproj.CoreCompileInputs.cache
+C:\Users\Tony\Documents\GitHub\Software-University-Exercises\C# Web Basics\SIS\SIS.WebServer\obj\Debug\netcoreapp3.1\SIS.WebServer.csproj.CopyComplete
+C:\Users\Tony\Documents\GitHub\Software-University-Exercises\C# Web Basics\SIS\SIS.WebServer\obj\Debug\netcoreapp3.1\SIS.WebServer.dll
+C:\Users\Tony\Documents\GitHub\Software-University-Exercises\C# Web Basics\SIS\SIS.WebServer\obj\Debug\netcoreapp3.1\SIS.WebServer.pdb

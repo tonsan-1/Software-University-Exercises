@@ -1,5 +1,6 @@
 ﻿using SIS.HTTP.Requests.Contracts;
 using SIS.HTTP.Responses.Contracts;
+using SIS.WebServer.Result;
 
 namespace Demo.App.Controllers
 {
@@ -7,7 +8,9 @@ namespace Demo.App.Controllers
     {
         public IHttpResponse Home(IHttpRequest httpRequest)
         {
-            return this.View();
+            var content = "<h1> Hey there, Stranger !</h1>";
+
+            return new HtmlResult(content, SIS.HTTP.Enums.HttpResponseStatusCode.Ok);
         }
     }
 }
