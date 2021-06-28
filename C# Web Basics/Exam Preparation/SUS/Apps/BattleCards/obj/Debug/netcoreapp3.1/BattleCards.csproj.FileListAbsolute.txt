@@ -1,0 +1,4 @@
+C:\Users\tonsa\Documents\GitHub\Software-University-Exercises\C# Web Basics\Exam Preparation\SUS\Apps\BattleCards\obj\Debug\netcoreapp3.1\BattleCards.csproj.AssemblyReference.cache
+C:\Users\tonsa\Documents\GitHub\Software-University-Exercises\C# Web Basics\Exam Preparation\SUS\Apps\BattleCards\obj\Debug\netcoreapp3.1\BattleCards.AssemblyInfoInputs.cache
+C:\Users\tonsa\Documents\GitHub\Software-University-Exercises\C# Web Basics\Exam Preparation\SUS\Apps\BattleCards\obj\Debug\netcoreapp3.1\BattleCards.AssemblyInfo.cs
+C:\Users\tonsa\Documents\GitHub\Software-University-Exercises\C# Web Basics\Exam Preparation\SUS\Apps\BattleCards\obj\Debug\netcoreapp3.1\BattleCards.csproj.CoreCompileInputs.cache

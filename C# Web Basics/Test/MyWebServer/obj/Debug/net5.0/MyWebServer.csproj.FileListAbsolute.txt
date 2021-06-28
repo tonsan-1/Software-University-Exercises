@@ -1,0 +1,12 @@
+C:\Users\tonsa\Documents\GitHub\Software-University-Exercises\C# Web Basics\Test\MyWebServer\bin\Debug\net5.0\MyWebServer.deps.json
+C:\Users\tonsa\Documents\GitHub\Software-University-Exercises\C# Web Basics\Test\MyWebServer\bin\Debug\net5.0\MyWebServer.dll
+C:\Users\tonsa\Documents\GitHub\Software-University-Exercises\C# Web Basics\Test\MyWebServer\bin\Debug\net5.0\ref\MyWebServer.dll
+C:\Users\tonsa\Documents\GitHub\Software-University-Exercises\C# Web Basics\Test\MyWebServer\bin\Debug\net5.0\MyWebServer.pdb
+C:\Users\tonsa\Documents\GitHub\Software-University-Exercises\C# Web Basics\Test\MyWebServer\obj\Debug\net5.0\MyWebServer.csproj.AssemblyReference.cache
+C:\Users\tonsa\Documents\GitHub\Software-University-Exercises\C# Web Basics\Test\MyWebServer\obj\Debug\net5.0\MyWebServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tonsa\Documents\GitHub\Software-University-Exercises\C# Web Basics\Test\MyWebServer\obj\Debug\net5.0\MyWebServer.AssemblyInfoInputs.cache
+C:\Users\tonsa\Documents\GitHub\Software-University-Exercises\C# Web Basics\Test\MyWebServer\obj\Debug\net5.0\MyWebServer.AssemblyInfo.cs
+C:\Users\tonsa\Documents\GitHub\Software-University-Exercises\C# Web Basics\Test\MyWebServer\obj\Debug\net5.0\MyWebServer.csproj.CoreCompileInputs.cache
+C:\Users\tonsa\Documents\GitHub\Software-University-Exercises\C# Web Basics\Test\MyWebServer\obj\Debug\net5.0\MyWebServer.dll
+C:\Users\tonsa\Documents\GitHub\Software-University-Exercises\C# Web Basics\Test\MyWebServer\obj\Debug\net5.0\ref\MyWebServer.dll
+C:\Users\tonsa\Documents\GitHub\Software-University-Exercises\C# Web Basics\Test\MyWebServer\obj\Debug\net5.0\MyWebServer.pdb
